@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA02B3F015D2389A009897E7 /* YMDemoStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA02B3EF15D2389A009897E7 /* YMDemoStartViewController.m */; };
+		DA404BE515D223EB00027A6C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA404BE415D223EB00027A6C /* UIKit.framework */; };
+		DA404BE715D223EB00027A6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA404BE615D223EB00027A6C /* Foundation.framework */; };
+		DA404BE915D223EB00027A6C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA404BE815D223EB00027A6C /* CoreGraphics.framework */; };
+		DA404BEF15D223EB00027A6C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA404BED15D223EB00027A6C /* InfoPlist.strings */; };
+		DA404BF115D223EB00027A6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA404BF015D223EB00027A6C /* main.m */; };
+		DA404BF515D223EB00027A6C /* YMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA404BF415D223EB00027A6C /* YMAppDelegate.m */; };
+		DA404C0115D2244700027A6C /* YMHTTPLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = DA404C0015D2244700027A6C /* YMHTTPLoader.m */; };
+		DA404C0515D22AA100027A6C /* YMHTTPResponseParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DA404C0415D22AA100027A6C /* YMHTTPResponseParser.m */; };
+		DA404C0815D2362900027A6C /* YMDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA404C0715D2362900027A6C /* YMDemoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DA02B3EE15D2389A009897E7 /* YMDemoStartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMDemoStartViewController.h; sourceTree = "<group>"; };
+		DA02B3EF15D2389A009897E7 /* YMDemoStartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMDemoStartViewController.m; sourceTree = "<group>"; };
+		DA404BE015D223EB00027A6C /* HTTPLoader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTTPLoader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA404BE415D223EB00027A6C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DA404BE615D223EB00027A6C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DA404BE815D223EB00027A6C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DA404BEC15D223EB00027A6C /* HTTPLoader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HTTPLoader-Info.plist"; sourceTree = "<group>"; };
+		DA404BEE15D223EB00027A6C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DA404BF015D223EB00027A6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA404BF215D223EB00027A6C /* HTTPLoader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HTTPLoader-Prefix.pch"; sourceTree = "<group>"; };
+		DA404BF315D223EB00027A6C /* YMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMAppDelegate.h; sourceTree = "<group>"; };
+		DA404BF415D223EB00027A6C /* YMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMAppDelegate.m; sourceTree = "<group>"; };
+		DA404BFF15D2244700027A6C /* YMHTTPLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMHTTPLoader.h; sourceTree = "<group>"; };
+		DA404C0015D2244700027A6C /* YMHTTPLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMHTTPLoader.m; sourceTree = "<group>"; };
+		DA404C0315D22AA100027A6C /* YMHTTPResponseParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMHTTPResponseParser.h; sourceTree = "<group>"; };
+		DA404C0415D22AA100027A6C /* YMHTTPResponseParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMHTTPResponseParser.m; sourceTree = "<group>"; };
+		DA404C0615D2362900027A6C /* YMDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMDemoViewController.h; sourceTree = "<group>"; };
+		DA404C0715D2362900027A6C /* YMDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMDemoViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA404BDD15D223EB00027A6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA404BE515D223EB00027A6C /* UIKit.framework in Frameworks */,
+				DA404BE715D223EB00027A6C /* Foundation.framework in Frameworks */,
+				DA404BE915D223EB00027A6C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA404BD515D223EB00027A6C = {
+			isa = PBXGroup;
+			children = (
+				DA404BEA15D223EB00027A6C /* HTTPLoader */,
+				DA404BE315D223EB00027A6C /* Frameworks */,
+				DA404BE115D223EB00027A6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA404BE115D223EB00027A6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA404BE015D223EB00027A6C /* HTTPLoader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA404BE315D223EB00027A6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA404BE415D223EB00027A6C /* UIKit.framework */,
+				DA404BE615D223EB00027A6C /* Foundation.framework */,
+				DA404BE815D223EB00027A6C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA404BEA15D223EB00027A6C /* HTTPLoader */ = {
+			isa = PBXGroup;
+			children = (
+				DA404BF315D223EB00027A6C /* YMAppDelegate.h */,
+				DA404BF415D223EB00027A6C /* YMAppDelegate.m */,
+				DA404BFF15D2244700027A6C /* YMHTTPLoader.h */,
+				DA404C0015D2244700027A6C /* YMHTTPLoader.m */,
+				DA404C0315D22AA100027A6C /* YMHTTPResponseParser.h */,
+				DA404C0415D22AA100027A6C /* YMHTTPResponseParser.m */,
+				DA404BEB15D223EB00027A6C /* Supporting Files */,
+				DA404C0615D2362900027A6C /* YMDemoViewController.h */,
+				DA404C0715D2362900027A6C /* YMDemoViewController.m */,
+				DA02B3EE15D2389A009897E7 /* YMDemoStartViewController.h */,
+				DA02B3EF15D2389A009897E7 /* YMDemoStartViewController.m */,
+			);
+			path = HTTPLoader;
+			sourceTree = "<group>";
+		};
+		DA404BEB15D223EB00027A6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA404BEC15D223EB00027A6C /* HTTPLoader-Info.plist */,
+				DA404BED15D223EB00027A6C /* InfoPlist.strings */,
+				DA404BF015D223EB00027A6C /* main.m */,
+				DA404BF215D223EB00027A6C /* HTTPLoader-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA404BDF15D223EB00027A6C /* HTTPLoader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA404BF815D223EB00027A6C /* Build configuration list for PBXNativeTarget "HTTPLoader" */;
+			buildPhases = (
+				DA404BDC15D223EB00027A6C /* Sources */,
+				DA404BDD15D223EB00027A6C /* Frameworks */,
+				DA404BDE15D223EB00027A6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HTTPLoader;
+			productName = HTTPLoader;
+			productReference = DA404BE015D223EB00027A6C /* HTTPLoader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA404BD715D223EB00027A6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YM;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = DA404BDA15D223EB00027A6C /* Build configuration list for PBXProject "HTTPLoader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DA404BD515D223EB00027A6C;
+			productRefGroup = DA404BE115D223EB00027A6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA404BDF15D223EB00027A6C /* HTTPLoader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA404BDE15D223EB00027A6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA404BEF15D223EB00027A6C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA404BDC15D223EB00027A6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA404BF115D223EB00027A6C /* main.m in Sources */,
+				DA404BF515D223EB00027A6C /* YMAppDelegate.m in Sources */,
+				DA404C0115D2244700027A6C /* YMHTTPLoader.m in Sources */,
+				DA404C0515D22AA100027A6C /* YMHTTPResponseParser.m in Sources */,
+				DA404C0815D2362900027A6C /* YMDemoViewController.m in Sources */,
+				DA02B3F015D2389A009897E7 /* YMDemoStartViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DA404BED15D223EB00027A6C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA404BEE15D223EB00027A6C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA404BF615D223EB00027A6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DA404BF715D223EB00027A6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA404BF915D223EB00027A6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HTTPLoader/HTTPLoader-Prefix.pch";
+				INFOPLIST_FILE = "HTTPLoader/HTTPLoader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DA404BFA15D223EB00027A6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HTTPLoader/HTTPLoader-Prefix.pch";
+				INFOPLIST_FILE = "HTTPLoader/HTTPLoader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA404BDA15D223EB00027A6C /* Build configuration list for PBXProject "HTTPLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA404BF615D223EB00027A6C /* Debug */,
+				DA404BF715D223EB00027A6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA404BF815D223EB00027A6C /* Build configuration list for PBXNativeTarget "HTTPLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA404BF915D223EB00027A6C /* Debug */,
+				DA404BFA15D223EB00027A6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA404BD715D223EB00027A6C /* Project object */;
+}
