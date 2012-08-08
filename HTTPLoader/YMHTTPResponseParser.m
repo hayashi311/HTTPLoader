@@ -36,6 +36,11 @@
     return self;
 }
 
+- (void)dealloc
+{
+    NSLog(@"YMHTTPResponseParser dealloc");
+}
+
 
 - (void)parseWithRequest:(NSMutableURLRequest*)request
 {

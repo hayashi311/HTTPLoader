@@ -22,7 +22,7 @@ typedef void (^cllbackBlock)(NSData* data, NSError *error);
 
 @property (atomic, readonly) NSString* parserId;
 @property (atomic, readonly) NSData* data;
-@property (atomic, weak) NSObject<YMHTTPResponseParserDelegate>* delegate;
+@property (atomic, unsafe_unretained) NSObject<YMHTTPResponseParserDelegate>* delegate;
 @property (atomic, strong) cllbackBlock callback;
 
 
